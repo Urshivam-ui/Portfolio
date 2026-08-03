@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Full Stack & Backend Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Dev<span>Core</span></div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <span class="greeting">Ready to Scale</span>
+            <h1>Hi, I am a <span class="highlight">Full Stack Developer</span></h1>
+            <p>Specializing in robust Node.js architectures, MySQL database optimization, and high-performance web applications.</p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">Explore Projects</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p>I am a Computer Science graduate and a Full Stack Web Developer who loves working with systems under the hood. My technical expertise spans across building structured APIs with <strong>Node.js and Express</strong>, crafting robust relational databases in <strong>MySQL</strong>, and designing responsive frontends using <strong>ReactJS</strong> and modern JavaScript.</p>
+                <p>I thrive on turning complex logic into clean, reusable code—whether it's designing e-learning architectures, building custom hardware-software error logging mechanisms, or streaming data pipelines.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <h2>Technical Stack</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="icon-box backend-icon"><i class="fa-brands fa-node-js"></i></div>
+                    <h3>Backend Development</h3>
+                    <p>Node.js, Express.js, RESTful APIs, MVC Architecture, Error Handling Middleware</p>
+                </div>
+                <div class="skill-card">
+                    <div class="icon-box db-icon"><i class="fa-solid fa-database"></i></div>
+                    <h3>Databases</h3>
+                    <p>MySQL, Database Schema Design, Query Optimization, Connection Pooling, Indexing</p>
+                </div>
+                <div class="skill-card">
+                    <div class="icon-box frontend-icon"><i class="fa-brands fa-react"></i></div>
+                    <h3>Frontend Tech</h3>
+                    <p>ReactJS, JavaScript (ES6+), HTML5, CSS3, Responsive Layouts & State Management</p>
+                </div>
+                <div class="skill-card">
+                    <div class="icon-box hw-icon"><i class="fa-solid fa-gears"></i></div>
+                    <h3>Tools & Integrations</h3>
+                    <p>Git, GitHub, Postman, JWT Authentication, Embedded Logic (Arduino/IoT)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>PCB E-Learning Workspace</h3>
+                        <span class="badge">Full Stack</span>
+                    </div>
+                    <p class="tech-stack">ReactJS | Node.js | Express | MySQL</p>
+                    <p>An advanced e-learning ecosystem featuring an interactive workspace and an automated **Hardware Error Handler Engine**. The system dynamically catches workspace rendering exceptions and hardware setup errors, logging them smoothly into a relational MySQL database.</p>
+                    <div class="project-features">
+                        <span><i class="fa-solid fa-triangle-exclamation"></i> Error Handler Middleware</span>
+                        <span><i class="fa-solid fa-layer-group"></i> Relational Schema</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="proj-link"><i class="fa-brands fa-github"></i> View Code</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>AI Video Summarizer Website</h3>
+                        <span class="badge">AI Integration</span>
+                    </div>
+                    <p class="tech-stack">Node.js | ReactJS | REST API | UI/UX</p>
+                    <p>A smart productivity application designed to summarize long-form video content into key notes. Engineered with a responsive React frontend, asynchronous background processing workers in Node.js, and clean API integrations to route text workloads efficiently.</p>
+                    <div class="project-features">
+                        <span><i class="fa-solid fa-bolt"></i> Async Request Queues</span>
+                        <span><i class="fa-solid fa-wand-magic-sparkles"></i> Clean UI/UX Integration</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="proj-link"><i class="fa-brands fa-github"></i> View Code</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Task Management System</h3>
+                        <span class="badge">Core Backend</span>
+                    </div>
+                    <p class="tech-stack">Node.js | Express.js | MySQL | JWT</p>
+                    <p>A production-ready project tracking software focused on backend scale. Implements rock-solid JSON Web Token (JWT) user authorization, password hashing with bcrypt, role-based access control, and complex table relationships with foreign keys.</p>
+                    <div class="project-features">
+                        <span><i class="fa-solid fa-shield-halved"></i> JWT Secure Auth</span>
+                        <span><i class="fa-solid fa-diagram-project"></i> Optimized SQL Queries</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="proj-link"><i class="fa-brands fa-github"></i> View Code</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>AQI Predictor Platform</h3>
+                        <span class="badge">Data & System</span>
+                    </div>
+                    <p class="tech-stack">Python | Node.js (API Bridge) | Vanilla JS</p>
+                    <p>An atmospheric analytics tool that ingests real-time air quality data parameters to predict the Air Quality Index. Built a backend bridge that feeds input parameters into analytical logic and securely passes prediction metrics to the client UI.</p>
+                    <div class="project-features">
+                        <span><i class="fa-solid fa-chart-pie"></i> Predictive Analysis</span>
+                        <span><i class="fa-solid fa-network-wired"></i> Cross-Language API Bridge</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="proj-link"><i class="fa-brands fa-github"></i> View Code</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p class="contact-subtitle">Looking for a developer who can handle frontend interfaces and optimize deep backend engines? Let's connect.</p>
+            <div class="contact-wrapper">
+                <a href="mailto:vjatin2606@gmail.com" class="contact-card">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>vjatin2606@gmail.com</span>
+                </a>
+                <a href="https://github.com/Urshivam-ui" target="_blank" class="contact-card">
+                    <i class="fa-brands fa-github"></i>
+                    <span>github.com/Urshivam-ui</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 | Handcrafted with passion for scalable backend & web systems.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
